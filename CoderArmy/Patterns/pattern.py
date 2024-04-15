@@ -1,7 +1,13 @@
+# def pattern():
+#     star = ""
+#     for i in range(5):
+#         star += "* "
+#         print(star)
+
 def pattern():
-    star = ""
+    printPattern = ""
     for i in range(5):
-        star += "* "
-        print(star)
+        printPattern += f"{i+1} "
+        print(printPattern)
 
 pattern()
